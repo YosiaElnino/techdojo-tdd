@@ -1,0 +1,30 @@
+{
+  "name": "techdojo-tdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --detectOpenHandles --forceExit --verbose",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YosiaElnino/techdojo-tdd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YosiaElnino/techdojo-tdd/issues"
+  },
+  "homepage": "https://github.com/YosiaElnino/techdojo-tdd#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "jest": "^27.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.7.1",
+    "sequelize": "^6.6.5",
+    "supertest": "^6.1.6"
+  }
+}
