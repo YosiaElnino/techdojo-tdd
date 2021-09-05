@@ -10,9 +10,10 @@ class UserController {
         password: req.body.password
       }
       const user = await User.create(payload)
-      res.status(201).json(user)
+      res.status(201).json({
+        msg: "User is created"
+      })
     } catch (error) {
-      console.log(error)
       next(error)
     }
   }
@@ -40,7 +41,6 @@ class UserController {
         })
       }
     } catch (error) {
-      console.log(error)
       next(error)
     }
   }

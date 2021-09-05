@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --detectOpenHandles --forceExit --verbose",
-    "start": "nodemon app.js"
+    "test": "jest --forceExit --verbose",
+    "start": "nodemon ./bin/www"
   },
   "repository": {
     "type": "git",
